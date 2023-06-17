@@ -99,8 +99,8 @@ header {
 }
 
 .menu a:hover {
-  color: #352208;
-  background-color: #7b6b43;
+  color: #e1bb80;
+  background-color: #352208;
   scale: 1.15;
   border: solid 1px #7b6b43;
   border-radius: 6px;
