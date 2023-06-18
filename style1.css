@@ -114,7 +114,107 @@ section {
 
 /* content carousel */
 
+.carousel {
+  background-color: #685634;
+  margin: 100px auto;
+  width: 800px;
+  padding: 32px;
+  padding-left: 86px;
+  padding-right: 48px;
+  color: aliceblue;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.25);
 
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 86px;
+}
+
+.carousel img {
+  height: 250px;
+  transform: scale(1.5);
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  /* border-radius: 24px; */
+  /* border: none; */
+  /* box-shadow: 0 12px 0px rgba(0, 0, 0, 0.01); */
+  top: 50%;
+  /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.btn-l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.btn-r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.btn-icon {
+  stroke: #e1bb80;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 1.5;
+  /* margin-bottom: 32px; */
+  background-color: #685634;
+}
+
+.quote-author {
+  padding-top: 32px;
+  font-size: 16px;
+  /* margin-bottom: 8px; */
+  background-color: #685634;
+  text-align: right;
+}
+
+/* .quote-job {
+  font-size: 12px;
+  background-color: #685634;
+}  */
+
+.dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 360%);
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  align-items: center;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid #685634;
+  border-radius: 50%;
+}
+
+.open {
+  background-color: #685634;
+}
 
 /* content accordian */
 
@@ -126,7 +226,7 @@ section {
   gap: 24px;
 }
 
-.btn-ac {
+.btn-ac{
   background-color: transparent;
 }
 
@@ -148,11 +248,11 @@ section {
 .text {
   font-size: 24px;
   background-color: #685634;
-  color: #e1bb80;
+  color: #E1BB80;
 }
 
 .number {
-  color: #e1bb80;
+  color: #E1BB80;
 }
 
 .icon {
@@ -184,8 +284,8 @@ section {
   background-color: #685634;
 }
 
-.hidden-box li {
-  background-color: #685634;
+.hidden-box li{
+    background-color: #685634;
 }
 
 .open {
